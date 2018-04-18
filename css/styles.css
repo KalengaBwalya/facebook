@@ -76,14 +76,18 @@ body{
   font-weight: 700;
 }
 #createPage a{
-  color: #0000ff;
+  color: #287cb6;
   text-decoration: none;
 }
 #createPage a:hover, #createPage a:focus{
+  color: #0066ff;
   text-decoration: underline;
 }
 .caption p{
   text-align: center;
+}
+#btn-signUp{
+ background-color: #027913;
 }
 /**End body**/
 
