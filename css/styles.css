@@ -1,6 +1,6 @@
-/**Header*/
+/********************* header **********************/
 #main-header{
-  background-color: #0066ff;
+  background-color: #287cb6;
   border: none;
 }
 .navbar{
@@ -11,10 +11,9 @@
 }
 h1{
   font-weight: bolder;
-  font-size: xx-large;
   color: #ffffff;
   margin-top: 0;
-  margin-left: 40px;
+  margin-left: 45px;
 }
 #login-btn{
   margin-top: 25px;
@@ -25,16 +24,22 @@ h1{
 label{
   color: #ffffff;
 }
-/**End Header**/
+/**end header**/
 
-/**BODY**/
+/******************* body **********************/
 body{
   background-color: #cecece;
   border: none;
 }
 
-#body h2, h3{
+#body h2, h4{
   color: #2E2E2E;
+}
+#body h2{
+  font-weight: bold;
+}
+body{
+ border: none;
 }
 
 .thumnail{
@@ -46,16 +51,13 @@ body{
   color: black;
   font-weight: 700;
 }
-#header-form{
-  margin-left: 20px
-}
 #memo{
  color: #2E2E2E;
- font-size: x-small;
+ font-size: .8em;
  width: 250px;
 }
 #question{
-  font-size: x-small;
+  font-size: .8em;
   width: 200px;
 }
 #question a{
@@ -70,7 +72,7 @@ body{
   width: 200px;
 }
 #createPage{
-  font-size: x-small;
+  font-size: .8em;
 }
 #createPage a{
   color: #0000ff;
@@ -84,7 +86,7 @@ body{
 }
 /**End body**/
 
-/**footer**/
+/******************* footer **********************/
 .panel-footer{
   background-color: #ffffff;
   color: #2e2e2e;
@@ -92,6 +94,7 @@ body{
 .panel-footer li{
   font-size: small;
 }
+/**end footer**/
 
   
 
