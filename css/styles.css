@@ -32,20 +32,15 @@ body{
   background-color: #cecece;
   border: none;
 }
+
 #body h2, h3{
-  color: black;
-}
-#body h3{
   color: #2E2E2E;
 }
-#picture, #addAccount{
-  width: 160px;
-  height: 160px;
-  border: .1px black solid;
-  border-radius: 10px;
-}
-#picture{
-  background-image: url("../images/cotinho.png");
+
+.thumnail{
+ width: 170px;
+ border: none;
+ border-radius: 5px
 }
 #createAccForm label{
   color: black;
@@ -84,7 +79,17 @@ body{
 #createPage a:hover, #createPage a:focus{
   text-decoration: underline;
 }
+/**End body**/
 
+/**footer**/
+.panel-footer{
+  height: 150px;
+  background-color: #ffffff;
+  color: #2e2e2e;
+}
+.panel-footer li{
+  font-size: small;
+}
 
   
 
