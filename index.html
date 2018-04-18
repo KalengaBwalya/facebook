@@ -6,10 +6,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
         <title>facebook.html</title>
+        <!----- Bootstrap / styles.css ----->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/styles.css">    
+        <link rel="stylesheet" href="css/styles.css">
+        <!--[if lt IE 8/9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
     </head>
     <body>
+        
+        <!---------------------------------------------- header navbar -->
         <header>
             <div class="navbar navbar-default navbar-static-top" role="navigation">
                 <div id="main-header" class="container-fluid">
@@ -33,7 +40,8 @@
                 </div>
             </div>
         </header>
-
+        
+        <!--------------------------------------------- Recent Logins --->
         <div id="body" class="container-fluid">
             <div id="div-main"class="form-group col-md-12">
                 <div id="div1"class="form-group col-md-6">
@@ -70,6 +78,9 @@
                         </div>
                     </div>
                 </div>
+                
+                
+                <!-------------------------------------- Create a new account -->
                 <div id="div2" class="form-group col-md-6">
                     <div id="createAccForm" class="col-md-12">
                         <div class="form-group col-md-12">
@@ -96,11 +107,11 @@
                         <div class="form-row col-md-12">
                             <div class="col-md-6">
                                 <input type="text" id="date" data-format="DD-MM-YYYY" data-template="D MMM YYYY" name="date">
-                                <script src="../js/combodate.js">
+                                <!--<script src="../js/combodate.js">
                                     $(function(){
                                         $('#date').combodate();    
                                     });
-                                </script>
+                                </script>-->
                             </div>
                             <div id="question"class="col-md-6">
                                 <a href="index.html">Why do I need to provide my date of birth?</a>
@@ -133,6 +144,7 @@
             </div>
         </div> 
         
+        <!----------------------------------------------------- footer -->
         <footer class="panel-footer">
             <div class="container">
                 <ul class="list-inline">
@@ -170,9 +182,6 @@
                 <div class="text-center">&copy; Facebook | 2018</div>       
             </div>
         </footer>
-    
-    
-    
         <!-- jQuery (Bootstrap JS plugins depend on it) -->
         <script src="js/jquery-3.3.1.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
