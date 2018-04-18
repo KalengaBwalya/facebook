@@ -1,0 +1,93 @@
+/**Header*/
+#main-header{
+  background-color: #0066ff;
+  border: none;
+}
+.navbar{
+  background-color: #0066ff;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+  text-decoration: none;
+}
+h1{
+  font-weight: bolder;
+  font-size: xx-large;
+  color: #ffffff;
+  margin-top: 0;
+  margin-left: 40px;
+}
+#login-btn{
+  margin-top: 25px;
+}
+#login-btn-div{
+  width: 160px;
+}
+label{
+  color: #ffffff;
+}
+/**End Header**/
+
+/**BODY**/
+body{
+  background-color: #cecece;
+  border: none;
+}
+#body h2, h3{
+  color: black;
+}
+#body h3{
+  color: #2E2E2E;
+}
+#picture, #addAccount{
+  width: 160px;
+  height: 160px;
+  border: .1px black solid;
+  border-radius: 10px;
+}
+#picture{
+  background-image: url("../images/cotinho.png");
+}
+#createAccForm label{
+  color: black;
+  font-weight: 700;
+}
+#header-form{
+  margin-left: 20px
+}
+#memo{
+ color: #2E2E2E;
+ font-size: x-small;
+ width: 250px;
+}
+#question{
+  font-size: x-small;
+  width: 200px;
+}
+#question a{
+  color: #2E2E2E;
+  text-decoration: none;
+}
+#question a:hover, #question a:focus{
+  color: #2E2E2E;
+  text-decoration: underline;
+}
+#btn-signUp{
+  width: 200px;
+}
+#createPage{
+  font-size: x-small;
+}
+#createPage a{
+  color: #0000ff;
+  text-decoration: none;
+}
+#createPage a:hover, #createPage a:focus{
+  text-decoration: underline;
+}
+
+
+  
+
+
+
+
