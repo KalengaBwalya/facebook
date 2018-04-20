@@ -13,7 +13,7 @@ h1{
   font-weight: bolder;
   color: #ffffff;
   margin-top: 0;
-  margin-left: 55px;
+  margin-left: 50px;
 }
 #login-btn{
   margin-top: 25px;
@@ -88,6 +88,9 @@ body{
 }
 #btn-signUp{
  background-color: #027913;
+}
+#div2{
+ max-width: 580px;
 }
 /**End body**/
 
